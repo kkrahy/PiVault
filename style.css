@@ -77,3 +77,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow below navbar */
+}
