@@ -3,12 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
 }
 
 /* Navbar Styles */
 .navbar {
-    background-color: #333;
+    background-color: #333; /* Dark navbar */
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: #e0e0e0; /* Light text color for links */
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -32,7 +33,7 @@ body {
     padding: 50px;
 }
 
-/* Projects List */
+/* Projects Section */
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -42,10 +43,10 @@ body {
 }
 
 .project {
-    background: white;
+    background: #1f1f1f; /* Dark card background */
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     width: 300px;
     text-align: center;
 }
@@ -53,4 +54,13 @@ body {
 .project img {
     width: 100%;
     border-radius: 10px;
+}
+
+/* Links and Buttons */
+a {
+    color: #4caf50; /* Green color for links */
+}
+
+a:hover {
+    text-decoration: underline;
 }
