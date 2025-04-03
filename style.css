@@ -46,11 +46,13 @@ footer {
     background-color: #333; /* Dark background for the footer */
     color: #e0e0e0; /* Light text color */
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0; /* Reduce padding */
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%; /* Full width */
     font-size: 14px;
+    margin: 0 auto; /* Center the footer */
+    max-width: 1200px; /* Set a max-width to make it thinner */
 }
 
 .project {
