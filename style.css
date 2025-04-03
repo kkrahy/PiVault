@@ -11,17 +11,19 @@ body {
 .navbar {
     background-color: #333;
     display: flex;
-    justify-content: space-between; /* Space out the elements */
+    justify-content: space-between; /* Space between elements */
     padding: 10px 20px;
     position: fixed;
-    width: 100%;
+    width: 100%; /* Ensure navbar takes full width */
     top: 0;
     z-index: 10;
+    box-sizing: border-box; /* Ensures padding doesn’t overflow */
 }
 
 .navbar div {
     display: flex;
     align-items: center;
+    flex-wrap: wrap; /* Allows links to wrap if needed */
 }
 
 .navbar a {
